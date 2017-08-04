@@ -1,0 +1,28 @@
+{
+  "name": "swagger-editor-electron",
+  "description": "Swagger Editor",
+  "version": "3.1.1",
+  "main": "main.js",
+  "repository": "",
+  "license": "Apache-2.0",
+  "origin_repository": "https://github.com/swagger-api/swagger-editor",
+  "origin_contributors": [
+    "(in alphabetical order)",
+    "Anna Bodnia <anna.bodnia@gmail.com>",
+    "Buu Nguyen <buunguyen@gmail.com>",
+    "Josh Ponelat <jponelat@gmail.com>",
+    "Kyle Shockey <kyleshockey1@gmail.com>",
+    "Robert Barnwell <robert@robertismy.name>",
+    "Sahar Jafari <shr.jafari@gmail.com>"
+  ],
+  "scripts": {
+    "build-windows64": "electron-packager . --platform=win32 --electron-version=1.6.11",
+    "build-windows32": "electron-packager . --platform=win32 -arch=ia32 --electron-version=1.6.11",
+    "build-mac": "electron-packager . --platform=darwin --electron-version=1.6.11"
+  },
+  "dependencies": {
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2",
+    "electron-prebuilt": "^1.4.13"
+  }
+}
