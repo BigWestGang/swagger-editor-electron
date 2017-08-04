@@ -17,5 +17,5 @@ $ npm run build-windows32
 ### Mac
 
 ~~~
-$ npm run build-darwin
+$ npm run build-mac
 ~~~
