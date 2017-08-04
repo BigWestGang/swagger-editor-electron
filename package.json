@@ -3,7 +3,7 @@
   "description": "Swagger Editor",
   "version": "3.1.1",
   "main": "main.js",
-  "repository": "",
+  "repository": "git@github.com:BigWestGang/swagger-editor-electron.git",
   "license": "Apache-2.0",
   "origin_repository": "https://github.com/swagger-api/swagger-editor",
   "origin_contributors": [
